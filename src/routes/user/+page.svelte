@@ -1,0 +1,2 @@
+<h1>Ini Dashboard</h1>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo sit tenetur quaerat maxime dolorum. Quidem, in ea ullam aspernatur laborum quasi quod nostrum laudantium labore provident sunt. Aliquam hic voluptates eum suscipit esse, porro non velit at perspiciatis voluptatum enim officiis illum obcaecati, rerum nostrum eligendi vitae blanditiis accusamus fugiat.</p>

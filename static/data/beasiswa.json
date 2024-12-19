@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "beasiswaName": "Internasional Priority Scolarship for Undergraduate Programs",
+        "openDate": "7 Oktober 2024",
+        "closeDate": "31 Desember 2024",
+        "description": "A Scolarship provided for international students who aim bachelor's degree at UMKO.",
+        "jenjang": "Sarjana",
+        "sumber": "Beasiswa Internal",
+        "tujuan": "UMKO",
+        "target": "Mahasiswa  Baru",
+        "status": "On-Going"
+    },
+    {
+        "id": 2,
+        "beasiswaName": "Internasional Priority Scolarship for Undergraduate Programs",
+        "openDate": "7 Oktober 2024",
+        "closeDate": "31 Desember 2024",
+        "description": "A Scolarship provided for international students who aim bachelor's degree at UMKO.",
+        "jenjang": "Sarjana",
+        "sumber": "Beasiswa Internal",
+        "tujuan": "UMKO",
+        "target": "Mahasiswa  Baru",
+        "status": "Closed"
+    }
+]

@@ -1,0 +1,223 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+$ungu: #002e5c;
+$kuning: #ffcc00;
+$text-color: #fff;
+$text-color2: #181818;
+$facebook: #4a42e1;
+$twitter: #57bbe6;
+$youtube: #d40000;
+$instagram: #d700a5;
+$linkedin: #1c25a2;
+$tiktok: #000000;
+
+.navbar-section {
+    background-color: $ungu;
+    box-shadow: 0px 8px 1px $kuning;
+
+    .container {
+        .header-navbar {
+            a {
+                transition: all 0.4s ease;
+                color: $text-color;
+            }
+
+            a:hover {
+                color: $kuning;
+                transform: scale(1.1);
+            }
+        }
+        .main-navbar {
+            .menu {
+                ul {
+                    margin-left: auto;
+
+                    li {
+                        a {
+                            text-decoration: none;
+                            font-size: 0.8rem;
+                            color: $text-color;
+                            text-align: center;
+                            text-transform: uppercase;
+                            transition: all 0.4s ease;
+                        }
+
+                        a:hover {
+                            color: $kuning;
+                        }
+                    }
+                }
+            }
+            .search {
+                .bi {
+                    font-size: 2rem;
+                    color: $text-color;
+                    cursor: pointer;
+                }
+
+                input {
+                    margin-left: 10px;
+                    padding: 5px 10px;
+                    font-size: 1rem;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    outline: none;
+                    height: 2rem;
+                    transition: all 0.3s ease;
+                }
+
+                input[hidden] {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+// Hero Section
+.hero-section {
+    background-image: url("../image/bg-main1.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    padding: 18rem 4rem;
+
+    .tagline {
+        h1 {
+            background-color: $kuning;
+            color: $text-color2;
+            font-size: 2rem;
+            width: 20rem;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        p {
+            background-color: $ungu;
+            color: $text-color;
+            font-size: 1rem;
+            width: 25rem;
+            padding: 1rem;
+            text-align: left;
+        }
+    }
+}
+
+// Beasiswa Section Aktif
+.section-beasiswa-aktif {
+    .daftar-beasiswa {
+        .beasiswa {
+            transition: all 0.4s ease;
+        }
+
+        .beasiswa:hover {
+            transform: scale(1.02);
+            box-shadow: 2px 2px 2px 2px 10px rgb(0, 0, 0, 0.3);
+        }
+    }
+}
+
+// Footer
+.footer {
+    .sosmed {
+        .bi {
+            width: 2.5rem;
+            height: 2.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0.7rem;
+            border-radius: 50%;
+        }
+    }
+}
+
+// Daftar Beasiswa Tersedia
+.filter-beasiswa {
+    .search {
+        input {
+            width: 100%;
+            padding: 1rem;
+            height: 3rem;
+            border: 1.5px solid $kuning;
+            box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.3);
+        }
+
+        input:focus {
+            border: none;
+        }
+
+        input::placeholder {
+            margin-left: 2rem;
+            font-style: italic;
+        }
+
+        .btn {
+            width: 4rem;
+        }
+    }
+
+    .filter {
+        .btn-filter {
+            .clear-filters {
+                color: $ungu;
+                transition: all 0.3s ease;
+            }
+            .clear-filters:hover {
+                color: #0080ff;
+            }
+
+            .filter {
+                background-color: $kuning;
+                transition: all 0.3s ease;
+            }
+            .filter:hover {
+                background-color: #c69f00;
+            }
+        }
+    }
+}
+
+// Section Daftar Beasiswa
+.section-beasiswa {
+    .beasiswa-card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 16px;
+        margin: 8px 0;
+        background-color: #f9f9f9;
+        transition: all 0.4s ease;
+
+        .beasiswa-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 8px; 
+        }
+    }
+    .beasiswa-card:hover {
+        box-shadow: 1px 1px 7px rgb(0, 0, 0, 0.3);
+        transform: scale(1.02);
+    }
+}
+
+// Background Sosmed Class Custom
+.bg-facebook {
+    background-color: $facebook;
+}
+.bg-twitter {
+    background-color: $twitter;
+}
+.bg-youtube {
+    background-color: $youtube;
+}
+.bg-instagram {
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+}
+.bg-linkedin {
+    background-color: $linkedin;
+}
+.bg-tiktok {
+    background-color: $tiktok;
+}
